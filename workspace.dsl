@@ -14,6 +14,13 @@ workspace "Kwetter" {
 
 
     model {
+        rs_intro = softwareSystem "Research 1: Introduction"{
+            !docs docs/research
+        }
+        rs_routing = softwareSystem "Research 2: Routing"{
+            !docs docs/research/simulating_and_routing
+        }
+
         !include dsl/shared_models.dsl
         !include dsl/old_group_2_model.dsl
 
