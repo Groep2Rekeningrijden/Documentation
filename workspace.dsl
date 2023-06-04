@@ -1,7 +1,8 @@
-workspace "Kwetter" {
+workspace "Rekeningrijden" {
     !adrs decisions
     !docs docs
 
+    !constant "NO "NO"
     !constant "WEB" "React 18" 
     !constant "PYTHON" "Python 3.11" 
     !constant "NET" ".NET Core 7.0" 

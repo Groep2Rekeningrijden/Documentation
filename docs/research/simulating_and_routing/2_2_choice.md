@@ -1,13 +1,12 @@
 ### Choosing OSM
 
- [OSM Wiki](#osm_wiki)
+[Map features - OpenStreetMap Wiki. (n.d.).]
 
-After carefully evaluating various options for datasets containing roads for European countries, the team involved in
-the Rekeningrijden microservice project decided to choose OpenStreetMap (OSM) as their primary data source. This
-decision was based on several key factors:
+After carefully evaluating various options for datasets containing roads for European countries, we decided to choose
+OpenStreetMap (OSM) as their primary data source. This decision was based on several key factors:
 
 1. Availability: OSM stood out due to its wide availability and coverage for many European countries. The team found
-   that OSM provides a comprehensive and up-to-date dataset that could be obtained without any significant barriers. 
+   that OSM provides a comprehensive and up-to-date dataset that could be obtained without any significant barriers.
 
 2. Costs: One of the significant advantages of OSM was its cost-effectiveness. The data provided by OSM is freely
    available, enabling the team to access and utilize the dataset without incurring any financial costs. This aspect was

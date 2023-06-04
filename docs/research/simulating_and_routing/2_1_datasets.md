@@ -12,7 +12,7 @@ To simulate traffic and generate routes for the project, we require relevant dat
     - Downsides: While OSM provides extensive coverage, the accuracy and completeness of the data can vary depending on
       the region and the level of community contributions. Some rural or less-populated areas might have less detailed
       road information. Additionally, the quality of attribute data (e.g., speed limits) may be inconsistent, requiring
-      careful validation. [OSM](#osm)
+      careful validation. [OpenStreetMap. (n.d.).]
    
 2. European Data Portal (EDP):
     - Upsides: The European Data Portal aggregates open data from various European countries, including geospatial
@@ -20,7 +20,7 @@ To simulate traffic and generate routes for the project, we require relevant dat
       and public institutions. These datasets may include road networks and related attributes for specific countries.
     - Downsides: The availability and quality of geospatial datasets can vary across different European countries within
       the EDP. Some datasets might have limited coverage or be available only at a regional or local level.
-      Additionally, the licensing terms and data formats can differ between countries and datasets. [EDP](#edp)
+      Additionally, the licensing terms and data formats can differ between countries and datasets. [Data.Europa.Eu. (n.d.).]
    
 3. National Mapping Agencies and Government Sources:
     - Upsides: Many European countries have their national mapping agencies or government bodies responsible for
