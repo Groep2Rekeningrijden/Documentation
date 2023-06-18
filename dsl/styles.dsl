@@ -35,6 +35,9 @@ styles {
     element "Database" {
         shape Cylinder
     }
+    element "NoSQL" {
+        shape Folder
+    }
     element "Component" {
         background #85bbf0
         color #000000

@@ -1,9 +1,9 @@
-SystemLandscape "SystemLandscape" {
+systemContext rekeningrijden "Rekeningrijden" {
     include *
     autoLayout
 }
 
-systemContext kwetter "KwetterSystemContext" {
+container rekeningrijden "RekeningrijdenContainer"{
     include *
-    autoLayout
+    # autoLayout tb
 }

@@ -6,10 +6,9 @@ workspace "Rekeningrijden" {
     !constant "WEB" "React 18" 
     !constant "PYTHON" "Python 3.11" 
     !constant "NET" ".NET Core 7.0" 
-    !constant "SQL" "MySQL"
-    !constant "NOSQL" "noSQL"
-    !constant "TIME" "Time Series Database"
-    !constant "TBD" "TBD"
+    !constant "SQL1" "MySQL"
+    !constant "SQL2" "PostgreSQL"
+    !constant "NOSQL" "MongoDB"
     !constant "MSG_HTTPS" "HTTPS"
     !constant "MSG_JSON" "HTTPS"
 
@@ -24,11 +23,13 @@ workspace "Rekeningrijden" {
 
         !include dsl/shared_models.dsl
         !include dsl/old_group_2_model.dsl
+        !include dsl/architecture_model.dsl
 
 
 
     }
     views {
+        !include dsl/architecture_views.dsl
         !include dsl/old_group_2_views.dsl
         !include dsl/styles.dsl
     }
